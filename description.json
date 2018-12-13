@@ -1,0 +1,114 @@
+{
+  "basics": {
+    "name": "Ardian Cakolli",
+    "label": "Software Developer",
+    "picture": "",
+    "email": "ardianck@gmail.com",
+    "phone": "+38344182189",
+    "website": "",
+    "summary": "I am Ardian Cakolli, a highly motivated computer sciences engineer, software and web application developer. I like to build web applications, a job I've been doing for some time now. My main strengths are my problem-solving approach, my willingness to learn more and my ability to work hard and under pressure in time-sensitive situations. In addition, I am organized and detail-oriented. Currently, I am learning a little bit of functional programming.",
+    "location": {
+      "address": "Sunny Hill",
+      "postalCode": "10000",
+      "city": "Prishtina",
+      "countryCode": "XK",
+      "region": "Kosovo"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "ardian-c",
+        "url": "http://github.com/ardian-c"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "OnStack",
+      "position": "Software Developer",
+      "website": "http://oda-lab.com",
+      "startDate": "2017-06-01",
+      "endDate": "-",
+      "summary": "Lead architect and developer on a project-based invoice application. Technologies used in this project are Laravel 5.3 and VueJs/Vuex. The project includes different invoicing capabilities, reporting, and notifications among others. My latest projects for a client in the US is an application which processes Point of Sale (POS) data built with Laravel (API) and Angular 5.",
+      "highlights": [
+        "Lead Developer in some projects"
+      ]
+    }, {
+      "company": "Trokit",
+      "position": "Full Stack Developer",
+      "website": "https://trokit.com/",
+      "startDate": "2013-10-01",
+      "endDate": "2015-07-01",
+      "summary": "A full stack developer directly involved in process of creating web pages and applications based on client’s needs. Programming languages and tools used during that time include PHP (WordPress, Laravel, Vagrant, Homestead, Lumen, CodeIgniter) for the backend, and frontend: JavaScript, jQuery, AngularJs.",
+      "highlights": []
+    }, {
+      "company": "Schweizerpunkt",
+      "position": "Web Developer",
+      "website": "https://trokit.com/",
+      "startDate": "2011-05-01",
+      "endDate": "2011-09-01",
+      "summary": "A web developer for creating web templates and applications based on requirements from the clients, using open the following programming languages: PHP (WordPress), JavaScript (jQuery, Ajax), HTML5 & CSS3.",
+      "highlights": []
+    }
+  ],
+
+  "education": [
+    {
+      "institution": "University of Colorado Denver",
+      "area": "Computer Sciences",
+      "studyType": "Master",
+      "startDate": "2015-09-01",
+      "endDate": "2017-05-01",
+      "gpa": "3.74",
+      "courses": [
+        "Algorithms",
+        "Introduction to Datascience", 
+        "Data Mining and Analytics ",
+        "Software Architecture",
+        "Database Systems",
+        "Advanced Computer Architecture",
+        "Theory of Distributed Computing"
+      ]
+    }, {
+      "institution": "Faculty of Electrical & Computer Engineering",
+      "area": "Computer Enineering",
+      "studyType": "Bachelor",
+      "startDate": "2009-10-01",
+      "endDate": "2013-06-01",
+      "gpa": "3.74",
+      "courses": [
+        "Algorithms",
+        "Web Programming",
+        "Software Engineering",
+        "C# Programming"
+      ]
+    }
+    
+  ],
+  "skills": [
+    {
+      "name": "Programming",
+      "level": "Master/Intermediate",
+      "keywords": [
+        "PHP",
+        "Javascript",
+        "VueJs",
+        "Angular",
+        "NodeJs",
+        "GraphQL",
+        "Laravel",
+        "Elixir"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Albanian",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    }
+  ]
+}
