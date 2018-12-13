@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableComponent.vue should render content correctly 1`] = `undefined`;
