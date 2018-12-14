@@ -3,7 +3,7 @@ var fernet = require("fernet");
 let secret = new fernet.Secret("TluxwB3fV_GWuLkR1_BzGs1Zk90TYAuhNMZP_0q4WyM=");
 // Oh no! The code is going over the edge! What are you going to do?
 let message =
-  "gAAAAABcD8O5jsH6-ObRsUujBzZJJmZxV2Lyq1KPXo85HMPgCc1M0qtt8iHI9OR2PRONzzqJVKPVcD0kAvQ-Gqri_QO7wlFS0mefhJOhCQj0Jz25NBYmUafWQfR6kFLAokF4ymVuGlq4N0EL1ZX-HjVo_8_L9vE3knBa2W4WD3r0fiE6GEAGZ56PrCQ7XZBjyRQsIs_b5Yvv";
+  "gAAAAABcE35ysTuskl_aAj2lIt_o1fHROGrNDRax_GpelGpq6AkgAfKi_6RjztgGKtbIma0w2TpZHHwPWf4mzp7vMQRsnv2GcWW51pqlA1Fo3Nu6qXEClOwtyjT1rm1n3T7TMVZEAc6V5dvysNFW9hPpDZZ33IFdxZNZnQNxyYsvZMQEcS6dY7enmKklVN8G9-pfs_GebJuI";
 let token = new fernet.Token({ secret: secret, token: message, ttl:0});
 token.decode();
 
