@@ -4,6 +4,14 @@ const fastify = require('fastify')({
   logger: true
 });
 
+const helmet = require("fastify-helmet");
+
+fastify.register(
+  helmet,
+  // Example of passing an option to x-powered-by middleware
+  { hidePoweredBy: { setTo: "PHP 4.2.0" } }
+);
+
 fastify.register(require("fastify-cors"), {
   origin: '*', // for development purposes only, will need to change when in server
 });
